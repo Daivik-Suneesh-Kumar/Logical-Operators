@@ -12,13 +12,13 @@ print(f"=== Your Library Plan for {day} ===")
 print("-" * 35)
 
 # Topic 1 -- if-elif-else: classify the day
-if day == ("Saturday", "Sunday"):
+if day in ("Saturday", "Sunday"):
     print("Day type    : Weekend - a good time for a relaxed library visit!")
 elif day == "Monday":
     print("Day type    : Start of the week. Check your reading list.")
 elif day == "Friday":
     print("Day type    : Last school day. Return books before the weekend.")
-elif day == ("Tuesday", "Wednesday", "Thursday"):
+elif day in ("Tuesday", "Wednesday", "Thursday"):
     print("Day type    : Regular school day. Plan a short library visit.")
 else:
     print("Day type    : Day not recognised. Please check the spelling.")
