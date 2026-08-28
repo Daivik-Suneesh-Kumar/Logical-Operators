@@ -3,7 +3,7 @@
 print("=== Library Visit Planner ===")
 print("Answer 3 quick questions and I will plan your library visit!\n")
 
-day       = input("What day is it? (Monday to Sunday): ").strip().capitalize()
+day       = input("What day is it? (Monday to Sunday): ").strip().upper()
 weather   = input("What is the weather? (sunny / rainy / cloudy): ").strip().lower()
 book_due  = input("Do you have a book to return? (yes / no): ").strip().lower()
 
